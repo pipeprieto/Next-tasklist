@@ -3,7 +3,7 @@ import { TaskCard } from "@/components/taskCard";
 import { useTasks } from "@/context/taskContext";
 import {useRouter} from "next/navigation";
 
-export default function page(){
+export default function Page(){
     const {tasks} = useTasks();
     const router = useRouter();
     return (
